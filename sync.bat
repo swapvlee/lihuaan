@@ -18,8 +18,12 @@ echo [2/4] 添加所有更改...
 git add .
 
 echo.
+set /p commit_msg="请输入提交备注（默认：自动同步）: "
+if "%commit_msg%"=="" set commit_msg=自动同步
+
+echo.
 echo [3/4] 提交更改...
-git commit -m "Auto sync - %date% %time%"
+git commit -m "%commit_msg%"
 
 echo.
 echo [4/4] 推送到远程仓库...
