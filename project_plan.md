@@ -8,6 +8,9 @@
 - `/cases` - 客户案例
 - `/services/it-operations` - IT运维服务详情
 - `/services/:serviceId` - 服务详情页
+- `/Products` - 自研产品（综合解决方案产品展示：智慧门店、华安工具、影视收藏）
+- `/events` - 专题活动列表
+- `/events/:slug` - 专题活动详情页
 - `/admin/login` - 管理员登录
 - `/admin` - 管理后台仪表盘
 - `/admin/services` - 服务项目管理
@@ -22,6 +25,9 @@
 - `/admin/users` - 用户管理
 - `/admin/permissions` - 权限管理
 - `/admin/system/logs` - 操作日志（权限变更追踪）
+- `/admin/resources/faq` - 常见问题管理
+- `/admin/content` - 内容管理（各版块文字内容编辑）
+- `/admin/events` - 专题活动管理
 - `/account` - 个人中心（个人信息 / 我的咨询 / 修改密码）
 - `/account/login` - 用户登录
 - `/account/register` - 用户注册
@@ -59,6 +65,7 @@
 - [x] 权限管理（角色矩阵/模块开关）
 - [x] 导航管理（前台导航/页脚导航/后台导航，各独立数据 + 拖拽排序）
 - [x] 后台侧边栏动态渲染（读取 localStorage 中后台导航配置）
+- [x] 专题活动管理（CRUD / 搜索筛选 / 批量操作 / 前台列表+详情页）
 
 ## 4. 数据模型
 ### Supabase 数据库表
@@ -67,6 +74,7 @@
 - `inquiries` — 客户咨询（id, company, contact, phone, email, service, status, date, amount, message, created_at）
 - `team_members` — 团队成员（id, name, position, email, phone, department, avatar_url, bio, full_bio, education, certifications, expertise, status, join_date, sort_order, created_at）
 - `profiles` — 用户档案（id UUID PK → auth.users, user_type: employee/client/visitor, display_name, email, phone, company, avatar_url, status, last_login, created_at, updated_at）
+- `events` — 专题活动（id, title, slug, description, content, cover_image, status, start_date, end_date, created_at, updated_at, user_id）
 
 ## 5. 后端 / 第三方集成
 - Supabase: 数据库 + 认证 + Storage（avatars bucket 用于 Logo/头像上传）

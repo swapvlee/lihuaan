@@ -1,0 +1,31 @@
+# 华安网
+
+> 岳阳本地专业IT综合服务商，提供电脑办公、弱电工程、软件网站开发、IT运维一站式服务。
+
+## 概述
+
+华安网（lihuaan.cn）是湖南省岳阳市岳阳楼区的技术服务公司，拥有十余年行业经验，服务超过500家本地企业客户。核心业务涵盖四大板块：电脑办公设备（销售、维修、耗材）、弱电工程（安防监控、网络布线、门禁系统）、软件与网站开发（定制开发、小程序、企业官网）、IT运维外包（驻场支持、远程维护、应急响应）。
+
+## 网站结构
+
+- [首页](https://zh.lihuaan.cn/) — 服务展示、核心团队、客户案例、联系方式
+- [服务项目](https://zh.lihuaan.cn/services) — 四大业务线详细介绍与价格
+- [客户案例](https://zh.lihuaan.cn/cases) — 弱电工程、软件开发、运维项目案例
+- [关于我们](https://zh.lihuaan.cn/about) — 公司介绍、发展历程、团队文化
+- [最新动态](https://zh.lihuaan.cn/events) — 公司新闻、行业资讯、活动公告
+- [资源下载](https://zh.lihuaan.cn/resources/downloads) — 驱动程序、工具软件、技术文档
+- [常见问题](https://zh.lihuaan.cn/resources/faq) — IT运维、弱电工程、软件开发FAQ
+- [联系我们](https://zh.lihuaan.cn/contact) — 在线咨询、电话、邮箱、办公地址
+- [产品展示](https://zh.lihuaan.cn/products) — 办公设备与IT产品推荐
+- [法律声明](https://zh.lihuaan.cn/legal) — 隐私政策、服务条款、免责声明
+
+## 联系方式
+
+- 电话：188-2188-2107
+- 邮箱：swapv@qq.com
+- 地址：湖南省岳阳市岳阳楼区
+- 工作时间：周一至周六 08:30-18:00
+
+## 技术栈
+
+网站基于 React + TypeScript + Tailwind CSS 构建，使用 Supabase 作为后端数据库与认证服务，部署于 Readdy 平台。
